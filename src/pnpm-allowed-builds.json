@@ -1,0 +1,6 @@
+{
+  "allowedBuilds": [
+    "@swc/core",
+    "esbuild"
+  ]
+}

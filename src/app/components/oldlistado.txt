@@ -1,0 +1,318 @@
+ {
+    id: 2,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-2.jpg",
+  },
+  {
+    id: 3,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-3.jpg",
+  },
+  {
+    id: 4,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-4.jpg",
+  },
+  {
+    id: 5,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-5.jpg",
+  },
+  {
+    id: 6,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-6.jpg",
+  },
+  {
+    id: 7,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-7.jpg",
+  },
+  {
+    id: 8,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-8.jpg",
+  },
+  {
+    id: 9,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-9.jpg",
+  },
+  {
+    id: 10,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-10.jpg",
+  },
+  {
+    id: 11,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-11.jpg",
+  },
+  {
+    id: 12,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-12.jpg",
+  },
+  {
+    id: 13,
+    text: "Buzo Egresados 2025",
+    category: ["buzos"],
+    image: "/Clothes/Buzo-13.jpg",
+  },
+
+  //Lista de Camperas
+  {
+    id: 14,
+    text: "Campera Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-1.jpg",
+  },
+  {
+    id: 15,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-2.jpg",
+  },
+  {
+    id: 16,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-3.jpg",
+  },
+  {
+    id: 17,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-4.jpg",
+  },
+  {
+    id: 18,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-5.jpg",
+  },
+  {
+    id: 19,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-6.jpg",
+  },
+  {
+    id: 20,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-7.jpg",
+  },
+  {
+    id: 21,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-8.jpg",
+  },
+  {
+    id: 22,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-9.jpg",
+  },
+  {
+    id: 23,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-10.jpg",
+  },
+  {
+    id: 24,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-11.jpg",
+  },
+  {
+    id: 25,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-12.jpg",
+  },
+  {
+    id: 26,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-13.jpg",
+  },
+  {
+    id: 27,
+    text: "Buzo Egresados 2025",
+    category: ["camperas"],
+    image: "/Clothes/Campera-14.jpg",
+  },
+
+  //Lista de Chombas
+  {
+    id: 28,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-1.jpg",
+  },
+  {
+    id: 29,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-2.jpg",
+  },
+  {
+    id: 30,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-3.jpg",
+  },
+  {
+    id: 31,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-4.jpg",
+  },
+  {
+    id: 32,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-5.jpg",
+  },
+  {
+    id: 33,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-6.jpg",
+  },
+  {
+    id: 34,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-7.jpg",
+  },
+  {
+    id: 35,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-8.jpg",
+  },
+  {
+    id: 36,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-9.jpg",
+  },
+  {
+    id: 37,
+    text: "Chomba Egresados 2025",
+    category: ["chombas"],
+    image: "/Clothes/Chomba-10.jpg",
+  },
+
+  //Lista de remeras
+
+  {
+    id: 38,
+    text: "Remera Egresados 2025",
+    category: ["remeras"],
+    image: "/Clothes/Remera-1.jpg",
+  },
+  {
+    id: 39,
+    text: "Remera Egresados 2025",
+    category: ["remeras"],
+    image: "/Clothes/Remera-2.jpg",
+  },
+  {
+    id: 40,
+    text: "Remera Egresados 2025",
+    category: ["remeras"],
+    image: "/Clothes/Remera-3.jpg",
+  },
+  {
+    id: 41,
+    text: "Remera Egresados 2025",
+    category: ["remeras"],
+    image: "/Clothes/Remera-4.jpg",
+  },
+  {
+    id: 42,
+    text: "Remera Egresados 2025",
+    category: ["remeras"],
+    image: "/Clothes/Remera-5.jpg",
+  },
+  {
+    id: 43,
+    text: "Remera Egresados 2025",
+    category: ["remeras"],
+    image: "/Clothes/Remera-6.jpg",
+  },
+
+  //Lista de Camperas y chombas
+
+  {
+    id: 44,
+    text: "Campera y chomba Egresados 2025",
+    category: ["camperas", "chombas"], 
+    image: "/Clothes/Campera-chomba.jpg",
+  },
+  {
+    id: 45,
+    text: "Campera y chomba Egresados 2025",
+    category: ["camperas", "chombas"], 
+    image: "/Clothes/Campera-chomba-2.jpg",
+  },
+  {
+    id: 46,
+    text: "Campera y chomba Egresados 2025",
+    category: ["camperas", "chombas"], 
+    image: "/Clothes/Campera-chomba-3.jpg",
+  },
+  {
+    id: 47,
+    text: "Campera y chomba Egresados 2025",
+    category: ["camperas", "chombas"], 
+    image: "/Clothes/Campera-chomba-4.jpg",
+  },
+  {
+    id: 48,
+    text: "Campera y chomba Egresados 2025",
+    category: ["camperas", "chombas"], 
+    image: "/Clothes/Campera-chomba-5.jpg",
+  },
+ 
+  //Lista de Camperas y remera
+  {
+    id: 49,
+    text: "Campera y remera Egresados 2025",
+    category: ["camperas", "remeras"], 
+    image: "/Clothes/Campera-remera.jpg",
+  },
+  {
+    id: 50,
+    text: "Campera y remera Egresados 2025",
+    category: ["camperas", "remeras"], 
+    image: "/Clothes/Campera-remera-2.jpg",
+  },
+  {
+    id: 51,
+    text: "Campera y remera Egresados 2025",
+    category: ["camperas", "remeras"], 
+    image: "/Clothes/Campera-remera-3.jpg",
+  },
+  {
+    id: 52,
+    text: "Campera y remera Egresados 2025",
+    category: ["camperas", "remeras"], 
+    image: "/Clothes/Campera-remera-4.jpg",
+  },
