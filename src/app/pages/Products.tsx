@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Filter } from '../components/Filter';
 import BackToTop from '../components/BackToTop';
-import { FilterProductCard, Product } from '../components/FilterProductCard';
+import { FilterProductCard, type Product } from '../components/FilterProductCard';
 import { products } from '../components/productList';
 import { ProductModal } from '../components/ProductModal';
 

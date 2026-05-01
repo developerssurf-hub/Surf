@@ -68,7 +68,7 @@ export function ProductModal({ product, onClose }: ProductModalProps) {
 
                     {/* Navigation Arrows */}
                     <button
-                        onClick={(e) => { e.stopPropagation(); nextImage(); }}
+                        onClick={(e) => { e.stopPropagation(); prevImage(); }}
                         className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-white rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-10 hover:bg-gray-100"
                     >
                         <ChevronLeft className="w-6 h-6 text-[#11204b]" />

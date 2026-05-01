@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Landing from '@/app/pages/Landing';
-import AboutUs from './app/pages/AboutUs';
 import Products from './app/pages/Products';
 import ContactUs from './app/pages/ContactUs';
 import Promotions from './app/pages/Promotions';

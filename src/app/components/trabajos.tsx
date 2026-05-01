@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { cn } from "@/lib/utils";
+import { useState, useEffect } from 'react';
 import RetroButton from './RetroButton';
 import { Button } from "@/components/ui/button";
 import { Plus } from "lucide-react";

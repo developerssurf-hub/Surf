@@ -1,16 +1,13 @@
 import { useEffect, useState } from 'react';
 import BackToTop from '../components/BackToTop';
 import Hero from '../components/Hero';
-import InstagramFeed from '../components/InstagramFeed';
 import FAQSection from '../components/FAQSection';
-import HowToBuy from '../components/HowToBuy';
 import Inspiracion from '../components/inspiracion';
 import HWW from '../components/hww';
 
 import Trabajos from '../components/trabajos';
 import Colegios from '../components/colegios';
 
-import Logobg from '../../components/ui/logobg';
 import Mapa from '../components/mapa';
 
 
