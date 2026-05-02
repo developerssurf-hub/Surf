@@ -10,10 +10,12 @@ const Trabajos = () => {
 
     // Placeholder images - to be replaced by the user
     const centralImages = [
+        "trabajos/central5.png",
         "trabajos/central1.png",
         "trabajos/central2.png",
         "trabajos/central3.png",
         "trabajos/central4.png",
+        "trabajos/central6.png"
     ];
 
     const superiorImages = [

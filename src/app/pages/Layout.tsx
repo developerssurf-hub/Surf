@@ -1,6 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import WhatsAppWidget from "../components/WhatsAppWidget";
 
 export default function Layout() {
   const location = useLocation();
@@ -13,6 +14,7 @@ export default function Layout() {
       <Navbar />
         <Outlet /> 
       {!hideFooter && <Footer />}
+      <WhatsAppWidget />
     </div>
   );
 }
