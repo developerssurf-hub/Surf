@@ -35,7 +35,7 @@ const Trabajos = () => {
             image: "trabajos/features2.png",
         },
         {
-            title: "Sin limite para la creatividad",
+            title: "Sin límite para la creatividad",
             image: "trabajos/features3.png",
         }
     ];

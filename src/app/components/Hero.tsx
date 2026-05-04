@@ -17,11 +17,11 @@ export default function Hero() {
           img="/hero/front2.png"
         />
         <Box
-          description="Tejidos de alta calidad"
+          description="Terminaciones premium"
           img="/hero/front1.png"
         />
         <Box
-          description="Tejidos de alta calidad"
+          description="Avíos resistentes"
           img="/hero/front3.png"
         />
       </div>

@@ -9,7 +9,7 @@ type Questions = {
 const questions = [
   {
     id: "1",
-    question: "¿Como contratamos el servicio?",
+    question: "¿Cómo contratamos el servicio?",
     answer:
       "Una vez que se deciden por nosotros, se arma un grupo de WhatsApp de 5 integrantes (papas y alumnos) -siempre debe haber un mayor-. Sumamos 2 teléfonos de la empresa. Por este grupo va a circular TODA la información. Se firma un contrato grupal con todos los datos, garantías, pagos y fecha de entrega."
   },
@@ -21,7 +21,7 @@ const questions = [
   },
   {
     id: "3",
-    question: "¿Como pedimos el diseño que nos interesa?",
+    question: "¿Cómo pedimos el diseño que nos interesa?",
     answer:
       "Una vez que firman el contrato la diseñadora les va armando varios modelos para que voten, se aprueba el diseño final y este es el que se adjunta al contrato como definitivo.  El diseño no se considera aprobado hasta que en el grupo de WhatsApp no figura como tal."
   },
@@ -33,7 +33,7 @@ const questions = [
   },
   {
     id: "5",
-    question: "¿Como se toman los talles?",
+    question: "¿Cómo se toman los talles?",
     answer:
       "Hay dos maneras, se les envía una curva de talles de cada prenda y se dejan unos días para que se prueben; o se les envía una planilla con las medidas de las prendas terminadas y la explicación para tomar las medidas sobre una prenda propia."
   },

@@ -12,11 +12,11 @@ export default function HWW() {
                 <p className=" text-center mb-5">
                     Nos reunimos con los estudiantes y los padres para definir el diseño ideal, elegir el modelo y asegurarnos de que cada detalle quede exactamente como lo quieren. <br />
                     <br />
-                    Trabajamos con diseñadores y un proceso de produccion que garantiza prendas de calidad, con entrega segura en todo el pais
+                    Trabajamos con diseñadores y un proceso de producción que garantiza prendas de calidad, con entrega segura en todo el país
                 </p>
                 <div className="w-full flex gap-5 justify-center">
 
-                    <RetroButton text="Descargar plantillas" bgColor="blue" className="p-4" url="/" />
+                    <RetroButton text="Descargar plantillas" bgColor="blue" className="p-4" url="/plantillas" />
                     <RetroButton text="Ver Mas" bgColor="red" className="p-4" url="/productos" />
                 </div>
             </div>

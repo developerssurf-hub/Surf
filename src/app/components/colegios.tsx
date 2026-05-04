@@ -1,13 +1,26 @@
 import { motion } from "framer-motion";
 import Logobg from "../../components/ui/logobg";
 
+
+
 const COLEGIOS_DATA = [
-    { name: "Colegio San José", logo: "/colegios/1.jpg" },
-    { name: "Instituto Santa María", logo: "/colegios/2.jpg" },
-    { name: "Colegio Nacional", logo: "/colegios/3.jpg" },
-    { name: "Escuela Técnica N°1", logo: "/colegios/4.jpg" },
-    { name: "Colegio del Sol", logo: "/colegios/5.jpeg" },
+    { name: "Instituto Padre Elizalde", logo: "/colegios/1.jpg" },
+    { name: "IPE Humanidades", logo: "/colegios/2.jpg" },
+    { name: "Colegio Belgrano Ecuador", logo: "/colegios/3.jpg" },
+    { name: "Instituto Gabriela Mistral", logo: "/colegios/4.jpg" },
+    { name: "Inmaculada Concepción Lanús", logo: "/colegios/5.jpeg" },
     { name: "Instituto Belgrano", logo: "/colegios/6.jpeg" },
+
+    { name: "Ceferino Namuncura Boulogne", logo: "/colegios/ceferino namuncura boulogne.jfif" },
+    { name: "Colegio de los Buenos Aires Pilar", logo: "/colegios/colegio de los buenos aires pilar.jfif" },
+    { name: "Colegio Racing Club", logo: "/colegios/colegio racing club.jfif" },
+    { name: "ICEA San Martin", logo: "/colegios/icea san martin.jfif" },
+    { name: "Instituto General Jose de San Martin Jose C Paz", logo: "/colegios/instituto general jose de san martin jose c paz.jfif" },
+    { name: "IPET - Laboulaye - Córdoba", logo: "/colegios/laboulaye ipet.jfif" },
+    { name: "Salto Buenos Aires", logo: "/colegios/salto buenos aires.jfif" },
+    { name: "San Antonio Oeste Rio Negro", logo: "/colegios/san antonio oeste rio negro.jfif" },
+    { name: "Villa Carlos Paz", logo: "/colegios/villa carlos paz.jfif" },
+
 ];
 
 export default function Colegios() {
@@ -29,10 +42,10 @@ export default function Colegios() {
                     animate={{ x: ["0%", "-50%"] }}
                     transition={{
                         repeat: Infinity,
-                        duration: 30,
+                        duration: 100,
                         ease: "linear"
                     }}
-                    whileHover={{ transition: { duration: 60 } }} // Slow down on hover
+                    whileHover={{ transition: { duration: 100 } }} // Slow down on hover
                 >
                     {duplicatedData.map((colegio, index) => (
                         <div key={index} className="flex flex-col items-center min-w-[180px] md:min-w-[220px]">

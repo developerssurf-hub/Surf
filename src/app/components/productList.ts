@@ -19,7 +19,7 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    text: "BUZO Polo",
+    text: "BUZO POLO",
     Description: "Buzo friza invisible a 3 colores, combinado en mangas recortes horizontales y en capucha - Bordado. Capucha forrada y puños a tono.",
     category: ["buzos"],
     image: "/Clothes/buzo/buzo_Polo.jpeg",
@@ -28,7 +28,7 @@ export const products: Product[] = [
   {
     id: 3,
     text: "BUZO ALMA",
-    Description: "Buzo friza invisible a 3 colores, combinado en mangas recortes ver􀆟cales - Bordado. Capucha forrada y puños a tono.",
+    Description: "Buzo friza invisible a 3 colores, combinado en mangas recortes verticales - Bordado. Capucha forrada y puños a tono.",
     category: ["buzos"],
     image: "/Clothes/buzo/buzo_ALMA.jpeg",
     imgsmolde: "/Clothes/buzo/molde_ALMA.png",
@@ -60,7 +60,7 @@ export const products: Product[] = [
   {
     id: 7,
     text: "BUZO MARTU",
-    Description: "Buzo friza invisible a 3 colores, combinado en mangas recortes horizontales, ver􀆟cales y en capucha – Bordado y estampado. Capucha forrada y puños a tono. Manga Raglan.",
+    Description: "Buzo friza invisible a 3 colores, combinado en mangas recortes horizontales, verticales y en capucha – Bordado y estampado. Capucha forrada y puños a tono. Manga Raglan.",
     category: ["buzos"],
     image: "/Clothes/buzo/buzo_MARTU.jpeg",
     imgsmolde: "/Clothes/buzo/molde_MARTU.png",
@@ -68,7 +68,7 @@ export const products: Product[] = [
   {
     id: 8,
     text: "BUZO PILI",
-    Description: "Buzo friza invisible a 2 colores, combinado en mangas recortes horizontales y en cuerpo recortes ver􀆟cales - Bordado. Capucha forrada y puños a tono.",
+    Description: "Buzo friza invisible a 2 colores, combinado en mangas recortes horizontales y en cuerpo recortes verticales - Bordado. Capucha forrada y puños a tono.",
     category: ["buzos"],
     image: "/Clothes/buzo/buzo_PILI.jpeg",
     imgsmolde: "/Clothes/buzo/molde_PILI.png",
@@ -76,7 +76,7 @@ export const products: Product[] = [
   {
     id: 9,
     text: "BUZO ZOE",
-    Description: "Buzo friza invisible a 3 colores, combinado en mangas y cuerpo con recortes ver􀆟cales - Bordado. Capucha forrada y puños a tono.",
+    Description: "Buzo friza invisible a 3 colores, combinado en mangas y cuerpo con recortes verticales - Bordado. Capucha forrada y puños a tono.",
     category: ["buzos"],
     image: "/Clothes/buzo/buzo_ZOE.jpeg",
     imgsmolde: "/Clothes/buzo/molde_ZOE.png",
