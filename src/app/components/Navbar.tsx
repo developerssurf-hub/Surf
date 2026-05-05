@@ -109,25 +109,15 @@ export default function Navbar() {
           <nav className="flex-1 px-6 py-8">
             <div className="space-y-6">
 
-              <a
-                href="/productos"
-                className="block text-xl font-medium text-gray-800 py-2"
-              >
-                Productos
-              </a>
+              {pages.map(({ path, name }) => (
+                <a
+                  href={path}
+                  className="block text-xl font-medium text-gray-800 py-2"
+                >
+                  {name}
+                </a>
+              ))}
 
-              <a
-                href="/plantillas"
-                className="block text-xl font-medium text-gray-800 py-2"
-              >
-                Plantillas
-              </a>
-              <a
-                href="/contacto"
-                className="block text-xl font-medium text-gray-800 py-2"
-              >
-                Contáctanos
-              </a>
             </div>
           </nav>
         </div>

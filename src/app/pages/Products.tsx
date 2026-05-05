@@ -5,6 +5,7 @@ import BackToTop from '../components/BackToTop';
 import { FilterProductCard, type Product } from '../components/FilterProductCard';
 import { products } from '../components/productList';
 import { ProductModal } from '../components/ProductModal';
+import RetroButton from '../components/RetroButton';
 
 export default function Products() {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("todos")
@@ -73,6 +74,10 @@ export default function Products() {
           />
         )}
       </AnimatePresence>
+
+      <div className="container mx-auto z-10 px-4 pt-22 flex justify-center">
+        <RetroButton url='https://www.instagram.com/surfsafariegresados?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' text='MAS DISEÑOS' />
+      </div>
 
       {showBackToTop && <BackToTop />}
     </main>

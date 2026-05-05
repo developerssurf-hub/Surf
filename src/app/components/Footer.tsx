@@ -10,13 +10,36 @@ export default function Footer() {
 
         <div className='container mx-auto px-4 relative z-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12'>
-            <div className='bg-surf-lightblue/20 p-6 rounded-lg'>
+            <div className='bg-surf-lightblue/20 p-6 rounded-lg col-span-2'>
               <h3 className='text-xl font-bold mb-4 text-brand-turquoise'>Egresados Surfsafari</h3>
               <p className='text-brand-white/80 mb-4'>
-                Creamos buzos de egresados con diseños únicos y personalizados para que tu promoción sea inolvidable.
-                ¡Los más cool del mercado!
+                Somos una empresa de indumentaria fundada en 2002, y desde entonces acompañamos a egresados de todo el país en la creación de prendas que los representan y los diferencian.
+                <br />
+                <br />
+                Detrás de cada diseño hay una mirada profesional: nuestro trabajo combina experiencia en producción con formación en diseño, para lograr prendas que no solo se vean bien, sino que también funcionen en uso, calce y durabilidad.
+                <br />
+                <br />
+                <b> NOSOTROS hacemos la campera, USTEDES la HISTORIA!!!</b>
               </p>
-              <div className='flex space-x-4'>
+
+            </div>
+
+
+
+            <div className='bg-surf-lightblue/20 p-6 rounded-lg'>
+              <h3 className='text-xl font-bold mb-4 text-brand-turquoise'>Contacto</h3>
+              <ul className='space-y-3'>
+                <li className='flex items-start'>
+                  <Phone className='w-5 h-5 text-brand-pink mr-2 mt-0.5' />
+                  <span className='text-brand-white/80'>+54 011 33777783</span>
+                </li>
+                <li className='flex items-start'>
+                  <MapPin className='w-5 h-5 text-brand-pink mr-2 mt-0.5' />
+                  <span className='text-brand-white/80'>Villa martelli</span>
+                </li>
+              </ul>
+
+              <div className='flex space-x-4 mt-5'>
                 <a
                   href='https://www.instagram.com/surfsafariegresados/'
                   target='_blank'
@@ -38,47 +61,6 @@ export default function Footer() {
                   <span className='sr-only'>WhatsApp</span>
                 </a>
               </div>
-            </div>
-
-            <div className='bg-surf-lightblue/20 p-6 rounded-lg'>
-              <h3 className='text-xl font-bold mb-4 text-brand-turquoise'>Enlaces Rápidos</h3>
-              <ul className='space-y-2'>
-                <li>
-                  <a
-                    href='/about'
-                    className='text-brand-white/80 hover:text-surf-yellow transition-colors flex items-center'>
-                    <span className='mr-2'>👉</span> Quiénes Somos
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='/products'
-                    className='text-brand-white/80 hover:text-surf-yellow transition-colors flex items-center'>
-                    <span className='mr-2'>👕</span> Productos
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='#how-to-buy'
-                    className='text-brand-white/80 hover:text-surf-yellow transition-colors flex items-center'>
-                    <span className='mr-2'>🛒</span> Cómo Comprar
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className='bg-surf-lightblue/20 p-6 rounded-lg'>
-              <h3 className='text-xl font-bold mb-4 text-brand-turquoise'>Contacto</h3>
-              <ul className='space-y-3'>
-                <li className='flex items-start'>
-                  <Phone className='w-5 h-5 text-brand-pink mr-2 mt-0.5' />
-                  <span className='text-brand-white/80'>+54 011 33777783</span>
-                </li>
-                <li className='flex items-start'>
-                  <MapPin className='w-5 h-5 text-brand-pink mr-2 mt-0.5' />
-                  <span className='text-brand-white/80'>Villa martelli</span>
-                </li>
-              </ul>
             </div>
 
             <div className='bg-surf-lightblue/20 p-6 rounded-lg'>

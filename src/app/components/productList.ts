@@ -134,7 +134,7 @@ export const products: Product[] = [
   {
     id: 16,
     text: "CAMPERA JOACO",
-    Description: "Campera con broches de friza invisible combinada a 2 colores – estilo universitario - Bordada. Cuello y puños combinados.",
+    Description: "Campera con cierre de friza invisible combinada a 2 colores – estilo universitario - Bordada. Cuello y puños combinados.",
     category: ["camperas"],
     image: "/Clothes/campera/JOACO.jpeg",
     imgsmolde: "/Clothes/campera/molde_JOACO.png",
@@ -142,7 +142,7 @@ export const products: Product[] = [
   {
     id: 17,
     text: "CAMPERA DENU ",
-    Description: "Campera con broches de friza invisible combinada a 2 colores – estilo universitario - Bordada. Cuello y puños combinados.",
+    Description: "Campera con cierre de friza invisible combinada a 2 colores – estilo universitario - Bordada. Cuello y puños combinados.",
     category: ["camperas"],
     image: "/Clothes/campera/DENU.jpeg",
     imgsmolde: "/Clothes/campera/molde_DENU.png",
