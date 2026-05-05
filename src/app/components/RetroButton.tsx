@@ -44,15 +44,27 @@ export default function RetroButton({ children, url, bgColor, onClick, isMobile,
     }
   }
 
+  const isExternal = url?.startsWith('http') || url?.startsWith('https');
+
+  const content = (
+    <button 
+        className={ cn( baseClassNames, getBgColor(), getIsMobile(), className ) }
+        onClick={ onClick }> 
+      { text ? text : children } 
+    </button>
+  );
+
   return (
     <div>
-      <Link to={ url }>
-        <button 
-            className={ cn( baseClassNames, getBgColor(), getIsMobile(), className ) }
-            onClick={ onClick }> 
-          { text ? text : children } 
-        </button>
-      </Link>
+      {isExternal ? (
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          {content}
+        </a>
+      ) : (
+        <Link to={url}>
+          {content}
+        </Link>
+      )}
     </div>
   )
 }

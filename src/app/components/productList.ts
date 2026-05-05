@@ -188,6 +188,14 @@ export const products: Product[] = [
     imgsmolde: "/Clothes/campera/molde_VAL.png",
   },
   {
+    id: 50,
+    text: "CAMPERA VALU",
+    Description: "Campera con cierre y broches de friza invisible combinada a 3 colores – recortes horizontales– Bordada. Capucha forrada y puños combinados.",
+    category: ["camperas"],
+    image: "/Clothes/campera/VALU.jpeg",
+    imgsmolde: "/Clothes/campera/molde_VALU.png",
+  },
+  {
     id: 23,
     text: "CAMPERA MATE ",
     Description: "Campera con cierre de friza invisible combinada a 3 colores con cortes horizontales– Bordada. Capucha forrada y puños combinados.",

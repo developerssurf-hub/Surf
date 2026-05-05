@@ -88,7 +88,7 @@ function TemplateModal({ template, onClose }: { template: Template; onClose: () 
                 onClick={(e) => e.stopPropagation()}
             >
                 {/* Lateral Image Section */}
-                <div className="md:w-1/3 bg-gray-100 relative min-h-[300px] md:min-h-full border-r border-gray-100">
+                <div className="hidden md:block md:w-1/3 bg-gray-100 relative min-h-[300px] md:min-h-full border-r border-gray-100">
                     <img
                         src={`/moldes/${template.image}_full.jpg`}
                         alt={template.name}

@@ -175,10 +175,12 @@ const Trabajos = () => {
                             text="Cotizar ahora"
                             bgColor="orange"
                             className="w-full text-2xl py-5 rounded-2xl shadow-[0_10px_20px_rgba(236,98,6,0.3)]"
+                            url="https://wa.me/5491133777783?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20cotizar%20un%20trabajo."
                         />
                         <Button
                             variant="outline"
                             className="w-full text-xl py-7 rounded-2xl border-white/10 bg-white/5 backdrop-blur-md hover:bg-white/10 transition-all text-white"
+                            onClick={() => window.location.href = "/plantillas"}
                         >
                             Descargar plantillas
                         </Button>

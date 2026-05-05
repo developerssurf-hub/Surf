@@ -31,7 +31,7 @@ export default function Footer() {
               <ul className='space-y-3'>
                 <li className='flex items-start'>
                   <Phone className='w-5 h-5 text-brand-pink mr-2 mt-0.5' />
-                  <span className='text-brand-white/80'>+54 011 33777783</span>
+                  <span className='text-brand-white/80'> +54 9 11 3377-7783 </span>
                 </li>
                 <li className='flex items-start'>
                   <MapPin className='w-5 h-5 text-brand-pink mr-2 mt-0.5' />
