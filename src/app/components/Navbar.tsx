@@ -92,9 +92,9 @@ export default function Navbar() {
         <div className="flex flex-col h-full">
           {/* Menu Header */}
           <div className="flex items-center justify-between p-6 border-b border-gray-200">
-            <a href="/">
+            <Link to="/">
               <img src="/logo.png" alt="Logo" className="w-12 h-12" />
-            </a>
+            </Link>
             <button
               onClick={() => setIsMobileMenuOpen(false)}
               className="text-gray-600 hover:text-gray-800 transition-colors"
@@ -110,12 +110,14 @@ export default function Navbar() {
             <div className="space-y-6">
 
               {pages.map(({ path, name }) => (
-                <a
-                  href={path}
+                <Link
+                  key={path}
+                  to={path}
                   className="block text-xl font-medium text-gray-800 py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {name}
-                </a>
+                </Link>
               ))}
 
             </div>

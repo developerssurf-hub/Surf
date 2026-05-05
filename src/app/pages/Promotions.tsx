@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react"
 import { Card, CardContent } from "@/components/ui/card"
+import { Link } from 'react-router-dom';
 import RetroButton from '../components/RetroButton';
 
 export default function PromotionsPage() {
@@ -124,7 +125,7 @@ export default function PromotionsPage() {
                       </p>
 
                       <div className="pt-2 md:pt-4">
-                         <a href="/contact">
+                         <Link to="/contacto">
                           <div className="inline-flex items-center gap-2 text-surf-blue font-semibold text-base md:text-lg">
                             <span>Enterate todo</span>
                             <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -136,7 +137,7 @@ export default function PromotionsPage() {
                               />
                             </svg>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
