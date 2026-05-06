@@ -5,7 +5,7 @@ import RetroButton from '../components/RetroButton';
 export default function ContactUs() {
   const openWhatsApp = () => {
     // Reemplaza este número con tu número de WhatsApp real
-    const phoneNumber = "+543516840691"
+    const phoneNumber = "+5491133777783"
     const message = "Hola, me gustaría obtener más información."
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
