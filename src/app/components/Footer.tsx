@@ -24,9 +24,7 @@ export default function Footer() {
 
             </div>
 
-
-
-            <div className='bg-surf-lightblue/20 p-6 rounded-lg'>
+            <div className='bg-surf-lightblue/20 p-6 rounded-lg col-span-2 md:col-span-1 '>
               <h3 className='text-xl font-bold mb-4 text-brand-turquoise'>Contacto</h3>
               <ul className='space-y-3'>
                 <li className='flex items-start'>
@@ -63,7 +61,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className='bg-surf-lightblue/20 p-6 rounded-lg'>
+            <div className='bg-surf-lightblue/20 p-6 rounded-lg col-span-2 lg:col-span-1'>
               <h3 className='text-xl font-bold mb-4 text-brand-turquoise'>Horario de Atención</h3>
               <ul className='space-y-2 text-brand-white/80'>
                 <li className='flex items-center'>
