@@ -71,7 +71,7 @@ const Trabajos = () => {
                 {/* Left Column: Info & Features */}
                 <div className="flex flex-col gap-10 ">
                     <div className="space-y-6">
-                        <div className="relative inline-block">
+                        <div className="relative inline-block" >
                             <motion.h2
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -104,6 +104,7 @@ const Trabajos = () => {
                                 initial={{ opacity: 0, x: -20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ delay: index * 0.2 }}
+                                onClick={() => window.location.href = "/plantillas"}
                                 className="relative h-24 md:h-28 rounded-2xl overflow-hidden group cursor-pointer border border-white/5"
                             >
                                 <img
